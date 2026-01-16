@@ -1,0 +1,117 @@
+# ÆTHER-Grid Git Ignore
+# =====================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Documentation
+docs/_build/
+site/
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Secrets
+secrets/
+*.pem
+*.key
+credentials.json
+
+# Data files
+*.csv
+*.parquet
+*.h5
+*.hdf5
+data/
+!data/.gitkeep
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.safetensors
+models/
+!models/.gitkeep
+
+# Audit logs (keep structure, ignore contents)
+audit_logs/
+!audit_logs/.gitkeep
+
+# Vector database
+chroma_db/
+*.faiss
+
+# Quantum
+*.qasm
+quantum_results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
